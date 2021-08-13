@@ -13,20 +13,6 @@ vel = 15
 
 run = True
 
-# Good things
-good_things = []
-
-for _ in range(20):
-    good_thing = turtle.Turtle()
-    good_thing.speed(0)
-    good_thing.shape("carrot2.gif")
-    good_thing.color("green")
-    good_thing.penup()
-    good_thing.goto(-100, 250)
-    good_thing.speed = random.randint(2, 5)
-
-    good_things.append(good_thing)   
-
 while run:
     pygame.time.delay(100)
 
